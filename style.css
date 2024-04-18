@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-image: url("https://images.unsplash.com/photo-1446057032654-9d8885db76c6?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    height: 80%;
+    width: 100%;
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 3vw 10vw;
+}
+#left{
+    height: 100%;
+    width: 40%;
+    background-color: yellow;
+    /* background-image: url(https://cdn.siasat.com/wp-content/uploads/2023/09/animal.jpg);*/
+    background-size: cover;
+    background-position: top;
+    border-radius: 10px;
+
+}
+#right{
+    height: 100%;
+    width: 40%;
+    /*background-color:rgb(3, 255, 137);*/
+    
+    background-color: rgba(29, 29, 29, 0.986);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#right h3{
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+
+#all-songs{
+    /*background-color: red;*/
+    height: 80%;
+    margin-top: 15px;
+    width: 85%;
+    padding: 10px 10px;
+}
+.songs-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    padding: 10px 10px;
+    
+}
+.songs-card:hover{
+    background-color: #0303037e;
+
+}
+.songs-card:nth-last-child(1){
+    border-bottom: 1px solid black;
+}
+.songs-card .part1{
+    display: flex;
+    align-items: center;
+    
+}
+.songs-card img{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    
+}
+.songs-card h2{
+    font-size: 20px;
+}
+.songs-card h2:hover{
+    color: yellow;
+}
+.songs-card h6{
+    font-size: 13px;
+}
+.songs-card h6:hover{
+    color: yellow;
+}
+
+#player{
+    height: 20%;
+    width: 100%;
+    background-color: rgba(29, 29, 29, 0.986);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#player h3{
+    background-color: rgb(65, 54, 54);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+#player h3 i{
+    font-size: 20px;
+}
+#player h3:active{
+    scale: 0.9;
+}
+
